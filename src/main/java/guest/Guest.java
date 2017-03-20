@@ -28,7 +28,11 @@ public class Guest implements Serializable {
     
     public Guest(){
     }
-    
+
+    public Guest(String name) {
+        this.name = name;
+    }
+     
     public Guest(Long id, String name, Date signDate) {
         this.id = id;
         this.name = name;
